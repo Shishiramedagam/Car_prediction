@@ -1,10 +1,10 @@
-# 🚗 Car Price Prediction using Machine Learning
+#  Car Price Prediction using Machine Learning
 
 This project implements a machine learning pipeline for predicting the selling price of used cars based on key features such as year, mileage, fuel type, seller type, transmission, and ownership status. The model is trained using Scikit-learn and evaluated with performance metrics. This project demonstrates preprocessing, encoding, regression modeling, and practical deployment of ML on real-world data.
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Abstract](#abstract)
 - [Technologies Used](#technologies-used)
@@ -19,13 +19,13 @@ This project implements a machine learning pipeline for predicting the selling p
 
 ---
 
-## 🧾 Abstract
+##  Abstract
 
 Used car pricing varies significantly depending on brand, model, usage, and condition. This project applies regression-based machine learning techniques to predict car prices accurately. The dataset is processed and modeled using Scikit-learn with techniques such as label encoding, feature selection, and random forest regression. The trained model can be deployed as part of a pricing assistant or a dealer’s recommendation engine.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python 3.x  
 - Pandas  
@@ -36,10 +36,10 @@ Used car pricing varies significantly depending on brand, model, usage, and cond
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
-- 📁 Source: [Kaggle / open car datasets]
-- 📄 Columns:
+-  Source: [Kaggle / open car datasets]
+-  Columns:
   - `Car_Name`: Name of the car
   - `Year`: Year of manufacture
   - `Selling_Price`: Price the owner wants
@@ -52,7 +52,7 @@ Used car pricing varies significantly depending on brand, model, usage, and cond
 
 ---
 
-## 🔁 Workflow
+##  Workflow
 
 1. **Data Cleaning and Exploration**  
 2. **Feature Engineering**  
@@ -66,7 +66,7 @@ Used car pricing varies significantly depending on brand, model, usage, and cond
 
 ---
 
-## 🤖 Model and Evaluation
+##  Model and Evaluation
 
 - **Model Used**: Random Forest Regressor  
 - **Train/Test Split**: 80/20  
@@ -77,7 +77,7 @@ Used car pricing varies significantly depending on brand, model, usage, and cond
 
 ---
 
-## 📈 Results
+##  Results
 
 - Features with highest influence: `Present_Price`, `Kms_Driven`, `Fuel_Type`, `Transmission`  
 - The model performs well for most mid-range car predictions  
@@ -86,7 +86,7 @@ Used car pricing varies significantly depending on brand, model, usage, and cond
 
 ---
 
-## 💡 Usage
+##  Usage
 
 You can run this notebook to:
 
@@ -97,7 +97,7 @@ You can run this notebook to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Car_prediction/
